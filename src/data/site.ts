@@ -1,10 +1,7 @@
-/**
- * Dados gerais do site: identidade, links e navegação.
- * Fonte: perfil público do GitHub (github.com/leonardochiaralo).
- */
+/** Dados gerais do site: identidade, links e navegação. */
 
 // Na Vercel, VERCEL_PROJECT_PRODUCTION_URL é definido automaticamente no build.
-// Para domínio próprio, defina NEXT_PUBLIC_SITE_URL (ex.: https://seudominio.dev).
+// NEXT_PUBLIC_SITE_URL tem prioridade (domínio próprio).
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
   (process.env.VERCEL_PROJECT_PRODUCTION_URL

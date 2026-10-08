@@ -1,12 +1,8 @@
 import { Cable } from "@/components/decor/Cable";
 
 /**
- * Ilustração principal do hero — arte ORIGINAL em SVG (capacete com visor,
- * cabos e adesivos), em cores chapadas e contorno grosso.
- *
- * Para trocar pela sua arte: substitua o conteúdo deste componente
- * (ex.: por um <Image src="/minha-arte.png" ... /> do next/image) mantendo
- * o nome e a prop `className`. Nada mais no site depende do que há aqui.
+ * Ilustração principal do hero: capacete com visor, cabos e adesivos,
+ * em cores chapadas e contorno grosso.
  */
 export function HeroIllustration({ className = "" }: { className?: string }) {
   const outline = {

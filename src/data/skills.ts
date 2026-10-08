@@ -1,8 +1,4 @@
-/**
- * Skills agrupadas por categoria.
- * Fonte: README do perfil no GitHub + dependências dos repositórios públicos.
- * Remova o que não quiser destacar e adicione o que faltar.
- */
+/** Skills agrupadas por categoria. */
 
 export type SkillGroup = {
   id: string;

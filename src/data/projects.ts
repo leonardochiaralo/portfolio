@@ -1,11 +1,4 @@
-/**
- * Projetos em destaque.
- * Fonte: repositórios públicos em github.com/leonardochiaralo.
- *
- * Imagens: coloque o screenshot em /public/projects e aponte em `image`.
- * Sem `image`, o card mostra uma capa provisória gerada em SVG.
- * Proporção recomendada: 16:10 (ex.: 1280×800), em .png, .jpg ou .webp.
- */
+/** Projetos em destaque. */
 
 export type ProjectLink = { label: string; href: string };
 
@@ -20,6 +13,7 @@ export type Project = {
   repos: ProjectLink[];
   /** URL da demo publicada, se houver. */
   demo?: string;
+  /** Screenshot em /public/projects (16:10). Sem ele, o card usa uma capa em SVG. */
   image?: { src: string; alt: string; width: number; height: number };
 };
 
@@ -43,7 +37,6 @@ export const projects: Project[] = [
     },
   },
   {
-    // TODO: revisar — descrição escrita a partir do código (repos sem README próprio).
     slug: "todo-list",
     title: "Todo List",
     kind: "Web + API",
@@ -63,7 +56,6 @@ export const projects: Project[] = [
     ],
   },
   {
-    // TODO: revisar — descrição escrita a partir do código.
     slug: "todo-list-mobile",
     title: "Todo List Mobile",
     kind: "App mobile",
@@ -73,7 +65,6 @@ export const projects: Project[] = [
     repos: [{ label: "Repositório", href: gh("todo-list-mobile") }],
   },
   {
-    // TODO: revisar — descrição escrita a partir do código.
     slug: "weather-app",
     title: "WeatherApp",
     kind: "Web app",
@@ -83,7 +74,6 @@ export const projects: Project[] = [
     repos: [{ label: "Repositório", href: gh("weatherApp") }],
   },
   {
-    // TODO: revisar — descrição escrita a partir do código.
     slug: "app-filmes",
     title: "AppFilmes",
     kind: "Web + API",
@@ -103,6 +93,5 @@ export const projects: Project[] = [
       "Site de um pet shop fictício de Maringá, criado como desafio do curso Dev Frontend Trainee da DB1 Global Software.",
     stack: ["HTML", "CSS", "JavaScript", "Express", "EJS", "MongoDB"],
     repos: [{ label: "Repositório", href: gh("petShopDB1") }],
-    // Sem demo: o link do GitHub Pages só exibe o README (o app precisa de servidor Express).
   },
 ];

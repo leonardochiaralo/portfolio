@@ -2,8 +2,7 @@
 
 ## Ilustrações, ícones e padrões
 
-Tudo o que é desenhado no site foi criado para este projeto, em SVG, e pode
-ser usado livremente por Leonardo Chiaralo:
+Todas as ilustrações do site são originais, feitas em SVG para este projeto:
 
 | Item | Arquivo |
 | --- | --- |
@@ -15,18 +14,11 @@ ser usado livremente por Leonardo Chiaralo:
 | Favicon | `src/app/icon.svg` |
 | Imagem Open Graph (gerada no build) | `src/app/opengraph-image.tsx` |
 
-As imagens da pasta `reference/` são obras de terceiros e serviram **apenas**
-como referência de estilo e paleta. Nenhuma foi copiada, traçada, recortada
-ou incluída no site, e a pasta está no `.gitignore`.
-
 ## Screenshots de projetos
 
 | Imagem | Origem |
 | --- | --- |
 | `public/projects/pokethrow.png` | Captura de tela de <https://leonardochiaralo.github.io/pokethrow/>, projeto do próprio autor. Pokémon é marca da Nintendo / Game Freak / The Pokémon Company; o projeto é um fan game sem fins comerciais. |
-
-Nenhuma imagem de banco (Unsplash, Pexels, Pixabay) foi usada. Se adicionar
-alguma, registre aqui o autor, o link e a licença.
 
 ## Fontes
 

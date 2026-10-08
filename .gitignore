@@ -9,3 +9,6 @@ next-env.d.ts
 
 # Imagens de referência de estilo (obras de terceiros) — não publicar
 reference/
+
+# Notas pessoais do autor
+NOTAS.md
