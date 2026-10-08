@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.vercel/
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# Imagens de referência de estilo (obras de terceiros) — não publicar
+reference/
